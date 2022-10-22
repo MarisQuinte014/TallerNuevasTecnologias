@@ -15,7 +15,7 @@ class Banco:
         print(f'Su saldo es {self.saldo}')
 
     def agregarSaldo(self, saldo):
-        self.saldo += saldo 
+        self.saldo = self.saldo + saldo 
 
     def retirarSaldo(self, saldo):
-        self.saldo -= saldo
+        self.saldo = self.saldo - saldo
